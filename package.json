@@ -1,0 +1,19 @@
+{
+  "name": "mastercard_assignment",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev1": "ts-node-dev src/index.ts",
+    "dev": "ts-node-dev src/isValidChunk.ts",
+    "start": "node dist/index.js index.txt"
+  },
+  "keywords": [],
+  "author": "Akkikumar72",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.3"
+  }
+}
